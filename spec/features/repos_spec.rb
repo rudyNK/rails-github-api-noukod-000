@@ -1,5 +1,5 @@
 # require_relative '../spec_helper'
-# 
+#
 # describe 'authentication' do
 #   it 'displays the username on the page' do
 #     visit '/auth?code=20'
@@ -11,7 +11,7 @@
 #   before :each do
 #     page.set_rack_session(token: '1')
 #   end
-# 
+#
 #   it 'lists repos' do
 #     visit '/'
 #     expect(page).to have_content 'Repo 1'
